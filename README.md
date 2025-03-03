@@ -1,4 +1,4 @@
-# RAG with Ollama and Gradio
+# RAG with Ollama and Gradio for Information Directory for Projects(Business Requirement related Ques -> AI Answer by analysing your porject specific documents)
 
 This project implements a Retrieval-Augmented Generation (RAG) system using FastAPI, LangChain, Ollama, and Gradio. The system allows users to upload private documents through a Gradio UI, which are then processed into vector embeddings using ChromaDB. Users can then query the system to retrieve answers based on the stored documents. This has been set up with local LLM, can be extended to any project which can act as a information directory for everyone belong to that project.
 
