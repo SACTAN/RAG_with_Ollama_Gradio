@@ -35,7 +35,7 @@ Create a `.env` file in the root directory and set any required environment vari
 uvicorn main:app --reload
 ```
 
-2. **Launch Gradio UI** Modify your Gradio script (`gradio_ui.py`) to include:
+2. **Launch Gradio UI** Modify your Gradio script (`RAG_demo.py`) to include:
 
 ```python
 import gradio as gr
@@ -66,7 +66,7 @@ iface.launch()
 Run the UI using:
 
 ```sh
-python gradio_ui.py
+python RAG_demo.py
 ```
 
 ## API Endpoints
