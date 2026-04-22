@@ -1,0 +1,24 @@
+{
+  "name": "html-capture-utility",
+  "version": "1.0.0",
+  "main": "src/capture.js",
+  "bin": "src/capture.js",
+  "scripts": {
+    "start": "node src/capture.js",
+    "build": "pkg . --targets node18-win-x64 --output dist/html-capture.exe",
+    "build:debug": "pkg . --targets node18-win-x64 --output dist/html-capture.exe --debug"
+  },
+  "pkg": {
+    "assets": [
+      "browsers/**/*",
+      "config.json",
+      "src/**/*.js"
+    ],
+    "scripts": [
+      "src/**/*.js"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ]
+  }
+}
