@@ -1,2 +1,5 @@
-Neojs installation:
+Neojs installation: support java version 11
 https://dist.neo4j.org/neo4j-community-4.4.48-windows.zip
+
+support java version 17,
+https://dist.neo4j.org/neo4j-community-5.14.0-windows.zip
